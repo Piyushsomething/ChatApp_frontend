@@ -60,7 +60,7 @@ function Login({ onLogin, onToggle }) {
           onClick={onToggle}
           className="font-medium text-indigo-600 hover:text-indigo-500"
         >
-          Don't have an account? Register
+          Don&apso;t have an account? Register
         </button>
       </div>
     </form>
