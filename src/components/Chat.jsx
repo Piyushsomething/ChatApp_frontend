@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://chatapp-backend-uubf.onrender.com';
 
 function Chat({ user, onLogout }) {
   const [messages, setMessages] = useState([]);

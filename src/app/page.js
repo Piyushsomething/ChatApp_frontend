@@ -5,7 +5,7 @@ import Login from '@/components/Login';
 import Register from '@/components/Register';
 import Chat from '@/components/Chat';
 
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://chatapp-backend-uubf.onrender.com';
 
 export default function Home() {
   const [user, setUser] = useState(null);
